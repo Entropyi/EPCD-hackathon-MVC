@@ -1,0 +1,506 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+
+@{
+    ViewData["Title"] = @Localizer["home"];
+}
+
+<div class="header-container">
+
+    <div class="header__head">
+
+        <div class="header_top-elements-container">
+
+            <div class=header__slogan-container>
+                <p class="slogan-text">
+                    @Localizer["slogen"]
+                </p>
+            </div>
+
+            <div class=header__logos-container>
+                <img src="/public/navbar_logo.png" alt="rc logo" width="154.3" height="45">
+            </div>
+
+
+            <form asp-controller="Culture" asp-action="ToggleCulture" asp-route-returnUrl="@Context.Request.Path" method="post"
+                  class="header__lang-switch-container">
+                <button type="submit" class="header__lang-switch-container">
+                    @if (Thread.CurrentThread.CurrentCulture.Name == "ar")
+                    {
+                        <p class="lang-switch-text">EN</p>
+                    }
+                    else
+                    {
+                        <div class="lang-switch-text">
+                            ع
+                        </div>
+                    }
+                    <div class="lang-switch-icon">
+                        <img src="/public/lang.svg" alt="lang icon" width="18.3" height="18">
+                    </div>
+                </button>
+            </form>
+
+
+        </div>
+
+
+    </div>
+
+
+    <div class="header__body">
+        <div class="title-conatiner">
+            <h1 class="title-text">@Localizer["headerTitle"]</h1>
+            <h3 class="title-subText">@Localizer["headerSubTitle"]</h3>
+        </div>
+
+        <div class="counter-container">
+            <div class="days-container">
+                <div class="days-container__number">
+                    <p>01</p>
+                </div>
+
+                <div class="days-container__label">
+                    <p>@Localizer["dayCounter"]</p>
+                </div>
+            </div>
+
+            <div class="days-container">
+                <div class="days-container__number">
+                    <p>01</p>
+                </div>
+
+                <div class="days-container__label">
+                    <p>@Localizer["hoursCounter"]</p>
+                </div>
+            </div>
+
+            <div class="days-container">
+                <div class="days-container__number">
+                    <p>01</p>
+                </div>
+
+                <div class="days-container__label">
+                    <p>@Localizer["minutescounter"]</p>
+                </div>
+            </div>
+
+            <div class="days-container">
+                <div class="days-container__number">
+                    <p>01</p>
+                </div>
+
+                <div class="days-container__label">
+                    <p>@Localizer["secondsCounter"]</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="join-button-container">
+            <div class="arrow-svg-container">
+                <img src="public/left-arrow.svg" alt="arrow" width="18.3" height="18">
+            </div>
+
+            <div class="button-text-container">
+                <a asp-controller="Form" asp-action="Index">
+                    <p>@Localizer["formLink"]</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="introduction-section-root-container">
+    <div class="introduction-section-container">
+        <div class="about-container">
+            <div class="about__title-container">
+                <h3 class="about__title">@Localizer["aboutTitle"]</h3>
+                <div class=about__highlight></div>
+            </div>
+
+            <div class="about__subtext-container">
+
+                <p class="text-1">
+                    @Localizer["aboutText1"]
+                </p>
+                <p class="text-1">
+                    @Localizer["aboutText2"]
+                </p>
+            </div>
+        </div>
+
+        <div class="event-logo">
+            <img class="event-logo__image" src="public/int-logo.png" alt="">
+        </div>
+    </div>
+
+    <div class="bird-container">
+        <img class="bird" src="public/bird.png" alt="bird" width="250">
+    </div>
+</div>
+
+
+<div class="goals-section-container">
+    <div class="goals-elements-container">
+
+        <div class="goals-title-container">
+            <img class="goals-leaf" src="public/leaf.svg" alt="leaf">
+            <h1 class="goals-title">@Localizer["goalsTitle"]</h1>
+
+            <div class="goals-sidelines-container">
+                <div class="goals-sideline"></div>
+                <div class="goals-sideline"></div>
+            </div>
+
+        </div>
+
+        <div class="goal-element-conatiner">
+            <div class="goals-element-header">
+                @Localizer["goalSubTitle1"]
+            </div>
+
+            <div class="goals-element-text-container">
+                <p class="goals-element-text">
+                    @Localizer["goalsSubText1"]
+                </p>
+            </div>
+        </div>
+        <div class="goal-element-conatiner">
+            <div class="goals-element-header">
+                @Localizer["goalsSubTitle2"]
+            </div>
+
+            <div class="goals-element-text-container">
+                <p class="goals-element-text">
+                    @Localizer["goalsSubText2"]
+                </p>
+            </div>
+        </div>
+        <div class="goal-element-conatiner">
+            <div class="goals-element-header">
+                @Localizer["goalsSubTitle3"]
+            </div>
+
+            <div class="goals-element-text-container">
+                <p class="goals-element-text">
+                    @Localizer["goalsSubText3"]
+                </p>
+            </div>
+        </div>
+        <div class="goal-element-conatiner">
+            <div class="goals-element-header">
+                @Localizer["goalsSubTitle4"]
+            </div>
+
+            <div class="goals-element-text-container">
+                <p class="goals-element-text">
+                    @Localizer["goalsSubText4"]
+                </p>
+            </div>
+        </div>
+        <div class="goal-element-conatiner">
+            <div class="goals-element-header">
+                @Localizer["goalsSubTitle5"]
+            </div>
+
+            <div class="goals-element-text-container">
+                <p class="goals-element-text">
+                    @Localizer["goalsSubTitle6"]
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="target-section-container">
+    <div class="target-elements-container">
+        <div class="target-title-container">
+            <h1 class="target-title">@Localizer["targetTitle"]</h1>
+            <div class="target-__highlight"></div>
+        </div>
+
+
+        <div class="target-classes-container">
+            <div class="target-class-container">
+                <div class="target-class-infographic-container">
+                    <img src="public/pharma.svg" alt="infographic">
+                </div>
+                <div class="target-class-text-container">
+                    <p class="target-class-text">@Localizer["target1"]</p>
+                </div>
+            </div>
+
+            <div class="target-class-container">
+                <div class="target-class-infographic-container">
+                    <img src="public/mining.svg" alt="infographic">
+                </div>
+                <div class="target-class-text-container">
+                    <p class="target-class-text">@Localizer["target2"]</p>
+                </div>
+            </div>
+
+            <div class="target-class-container">
+                <div class="target-class-infographic-container">
+                    <img src="public/factory.svg" alt="infographic">
+                </div>
+                <div class="target-class-text-container">
+                    <p class="target-class-text">@Localizer["target3"]</p>
+                </div>
+            </div>
+
+            <div class="target-class-container">
+                <div class="target-class-infographic-container">
+                    <img src="public/other.svg" alt="infographic">
+                </div>
+                <div class="target-class-text-container">
+                    <p class="target-class-text">@Localizer["target4"]</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="paths-section-container">
+    <div class="target-title-container">
+        <h1 class="target-title">@Localizer["tracksTitle"]</h1>
+        <div class="paths__highlight"></div>
+    </div>
+
+    <div class="paths-elements-container">
+
+        <div class="path-cards-container">
+            <div class="path-card-container ">
+                <div class="paths-card__header-container card-1">
+                    <div class="paths-card__header-container__graphic-container">
+                        <img class="path-graphic" src="public/energy.svg" alt="drawing" width="80" height="80">
+                    </div>
+                    <div>
+                        <div class="paths-card__header-container__text-container">
+                            <h1>@Localizer["track1"]</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="paths__innerText"></div>
+
+
+            </div>
+        </div>
+
+        <div class="path-cards-container">
+            <div class="path-card-container ">
+                <div class="paths-card__header-container card-2">
+                    <div class="paths-card__header-container__graphic-container ">
+                        <img class="path-graphic" src="public/waste.svg" alt="drawing" width="80" height="80">
+                    </div>
+                    <div>
+                        <div class="paths-card__header-container__text-container">
+                            <h1>@Localizer["track2"]</h1>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <div class="path-cards-container">
+            <div class="path-card-container">
+                <div class="paths-card__header-container card-3">
+                    <div class="paths-card__header-container__graphic-container">
+                        <img class="path-graphic" src="public/water.svg" alt="drawing" width="80" height="80">
+                    </div>
+                    <div>
+                        <div class="paths-card__header-container__text-container">
+                            <h1>@Localizer["track3"]</h1>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div></div>
+            <div></div>
+        </div>
+
+    </div>
+</div>
+
+<div class="conditions-root-container">
+    <div class="conditions__container">
+        <div class="target-title-container">
+            <h1 class="target-title">@Localizer["conditionsTitle"]</h1>
+            <div class="paths__highlight"></div>
+        </div>
+
+        <div class="conditions__terms-container">
+            <div class="conditions__term">
+                <div class="conditions__header"></div>
+                <div class="conditions__text-container">
+                    <div class="conditions__text">@Localizer["condition1"]</div>
+                </div>
+            </div>
+
+            <div class="conditions__term">
+                <div class="conditions__header"></div>
+                <div class="conditions__text-container">
+                    <div class="conditions__text">@Localizer["condition1"]</div>
+                </div>
+            </div>
+
+            <div class="conditions__term">
+                <div class="conditions__header"></div>
+                <div class="conditions__text-container">
+                    <div class="conditions__text">@Localizer["condition1"]</div>
+                </div>
+            </div>
+
+            <div class="conditions__term">
+                <div class="conditions__header"></div>
+                <div class="conditions__text-container">
+                    <div class="conditions__text">@Localizer["condition1"]</div>
+                </div>
+            </div>
+
+            <div class="conditions__term">
+                <div class="conditions__header"></div>
+                <div class="conditions__text-container">
+                    <div class="conditions__text">@Localizer["condition1"]</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="milestone-root-container">
+    <div class="milestone__container">
+
+        <div class="target-title-container">
+            <h1 class="target-title">@Localizer["roadmapTitle"]</h1>
+            <div class="paths__highlight"></div>
+        </div>
+
+        <div class="milestone__elements_container">
+            <div class="milestone__timeline-headers-container">
+                <div class="milestone__timeline-start">
+                    <p>@Localizer["roadmapLabel"]</p>
+                </div>
+                <div class="milestone__timeline-end">
+                    <p>@Localizer["roadmapLabel1"]</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="milestone__terms-root-container">
+            <div class="milestone__terms-container">
+                <div class="milestone__term-container">
+                    <div class="milestone__term-logo-container">
+                        <img src="public/term1.svg" alt="r1" width="50" height="50">
+                    </div>
+
+                    <div class="milestone__title-container">
+                        <div class="milestone__title-text">@Localizer["roadmapElement1"]</div>
+                    </div>
+                </div>
+
+                <div class="milestone__term-container">
+                    <div class="milestone__term-logo-container">
+                        <img src="public/term2.svg" alt="r1" width="50" height="50">
+                    </div>
+
+                    <div class="milestone__title-container">
+                        <div class="milestone__title-text">@Localizer["roadmapElement2"]</div>
+                    </div>
+                </div>
+
+                <div class="milestone__term-container">
+                    <div class="milestone__term-logo-container">
+                        <img src="public/term3.svg" alt="r1" width="50" height="50">
+                    </div>
+
+                    <div class="milestone__title-container">
+                        <div class="milestone__title-text">@Localizer["roadmapElement3"]</div>
+                    </div>
+                </div>
+
+                <div class="milestone__term-container">
+                    <div class="milestone__term-logo-container">
+                        <img src="public/term4.svg" alt="r1" width="50" height="50">
+                    </div>
+
+                    <div class="milestone__title-container">
+                        <div class="milestone__title-text">@Localizer["roadmapElement4"]</div>
+                    </div>
+                </div>
+
+                <div class="milestone__term-container">
+                    <div class="milestone__term-logo-container">
+                        <img src="public/inbox.svg" alt="r1" width="50" height="50">
+                    </div>
+
+                    <div class="milestone__title-container">
+                        <div class="milestone__title-text">@Localizer["roadmapElement5"]</div>
+                    </div>
+                </div>
+
+                <div class="milestone__term-container">
+                    <div class="milestone__term-logo-container">
+                        <img src="public/celebrate.svg" alt="r1" width="50" height="50">
+                    </div>
+
+                    <div class="milestone__title-container">
+                        <div class="milestone__title-text">@Localizer["roadmapElement6"]</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="milestone__date-line-container">
+            <div class="milestone__line"></div>
+        </div>
+    </div>
+</div>
+
+<div class="rewards-root-container">
+
+    <div class="rewards-container">
+        <div class="rewards__header-text-container">
+            <div class="rewards__title-container">
+                <h1 class="rewards__title">@Localizer["prizeTitle"]</h1>
+                <h1 class="rewards__subtitle">
+                    <div class="rewards__amount-container">
+                        <h2 class="rewards__amount-text">1,400,000</h2>
+                    </div>
+
+                    <div class="rewards__currency-contianer">
+                        <p>@Localizer["prizeCurrency"]</p>
+                    </div>
+                </h1>
+            </div>
+        </div>
+
+        <div class="rewards__body-container">
+            <div class="rewards__body-text-container">
+                <h3 class="rewards__text">
+                    @Localizer["prizeSubTitle"]
+                </h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer-root-container">
+    <div class="footer-container">
+        <div class="footer__rc-logo-container">
+            <img src="/public/navbar_logo.png" alt="rc logo" width="154.3" height="45">
+        </div>
+
+        <div class="footer__rc-rights-container">
+            <h4 class="footer__rc-rights-text">
+                @Localizer["rights"]
+            </h4>
+        </div>
+    </div>
+</div>

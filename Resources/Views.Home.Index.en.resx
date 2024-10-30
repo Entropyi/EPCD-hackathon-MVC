@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="home" xml:space="preserve">
+        <value>Environmental Hackathon</value>
+    </data>
+    <data name="slogen" xml:space="preserve">
+        <value>industry and Life</value>
+    </data>
+    <data name="headerSubTitle" xml:space="preserve">
+        <value>The registration ends after</value>
+    </data>
+    <data name="headerTitle" xml:space="preserve">
+        <value>Environmental Hackathon 2024</value>
+    </data>
+    <data name="dayCounter" xml:space="preserve">
+        <value>Days</value>
+    </data>
+    <data name="hoursCounter" xml:space="preserve">
+        <value>Hours</value>
+    </data>
+    <data name="minutescounter" xml:space="preserve">
+        <value>minutes</value>
+    </data>
+    <data name="secondsCounter" xml:space="preserve">
+        <value>seconds</value>
+    </data>
+    <data name="formLink" xml:space="preserve">
+        <value>Join the hackathon</value>
+    </data>
+    <data name="aboutText1" xml:space="preserve">
+        <value>The Royal Commission's Environmental Hackathon aims to promote innovative environmental solutions and enhance sustainability practices across industries under the Royal Commission. This is achieved through collaborative problem-solving and the use of modern technologies to provide environmental solutions to existing issues</value>
+    </data>
+    <data name="aboutTitle" xml:space="preserve">
+        <value>About us</value>
+    </data>
+    <data name="aboutText2" xml:space="preserve">
+        <value>The hackathon presents a unique opportunity for creators and innovators from various fields to collaborate on developing effective and sustainable environmental solutions. By bringing together creative minds and diverse expertise, we aim to find new and innovative solutions to the environmental challenges faced by different industries</value>
+    </data>
+    <data name="goalsTitle" xml:space="preserve">
+        <value>Hackathon Goals</value>
+    </data>
+    <data name="goalSubTitle1" xml:space="preserve">
+        <value>Fostering collaboration among various industries.</value>
+    </data>
+    <data name="goalsSubText1" xml:space="preserve">
+        <value>By encouraging participants to exchange ideas and experiences, we can achieve greater integration between different industries and realize mutual benefits</value>
+    </data>
+    <data name="goalsSubTitle2" xml:space="preserve">
+        <value>Developing practical and implementable solutions.</value>
+    </data>
+    <data name="goalsSubText2" xml:space="preserve">
+        <value>We aim to develop solutions that can be practically implemented across various industries, contributing to improved environmental performance and reducing negative environmental impact</value>
+    </data>
+    <data name="goalsSubTitle3" xml:space="preserve">
+        <value>Accelerating the adoption of sustainable practices.</value>
+    </data>
+    <data name="goalsSubText3" xml:space="preserve">
+        <value>By presenting innovative solutions, we can accelerate the adoption of sustainable practices across various industries, contributing to the achievement of long-term sustainability goals</value>
+    </data>
+    <data name="goalsSubTitle4" xml:space="preserve">
+        <value>Highlighting the Royal Commission's commitment to environmental preservation</value>
+    </data>
+    <data name="goalsSubText4" xml:space="preserve">
+        <value>By organizing this hackathon, we reaffirm the Royal Commission's commitment to supporting environmental innovation and promoting sustainable practices. This initiative highlights our dedication to fostering an environment where creative solutions can thrive and sustainability can be integrated into various industries</value>
+    </data>
+    <data name="goalsSubTitle5" xml:space="preserve">
+        <value>Identifying and nurturing talent in the field of environmental innovation</value>
+    </data>
+    <data name="goalsSubTitle6" xml:space="preserve">
+        <value>The hackathon provides an opportunity to discover and support new talents, contributing to the development of a new generation of environmental innovators. By offering a platform for creative minds to showcase their ideas and collaborate with industry experts, we aim to nurture the skills and potential of emerging talents, ultimately fostering a community dedicated to solving environmental challenges</value>
+    </data>
+    <data name="targetTitle" xml:space="preserve">
+        <value>Target Audience</value>
+    </data>
+    <data name="target1" xml:space="preserve">
+        <value>Petrochemicals</value>
+    </data>
+    <data name="target4" xml:space="preserve">
+        <value>All industries at the RC-Yanbu</value>
+    </data>
+    <data name="target3" xml:space="preserve">
+        <value>Manufacturing </value>
+    </data>
+    <data name="target2" xml:space="preserve">
+        <value>Minerals and Mining</value>
+    </data>
+    <data name="tracksTitle" xml:space="preserve">
+        <value>Hackathon Tracks</value>
+    </data>
+    <data name="track3" xml:space="preserve">
+        <value>Water Treatment</value>
+    </data>
+    <data name="track2" xml:space="preserve">
+        <value>Waste Management
+
+</value>
+    </data>
+    <data name="track1" xml:space="preserve">
+        <value>Energy Efficiency
+
+</value>
+    </data>
+    <data name="conditionsTitle" xml:space="preserve">
+        <value>Registration Requirements</value>
+    </data>
+    <data name="condition1" xml:space="preserve">
+        <value>The team leader must be of Saudi nationality.</value>
+    </data>
+    <data name="roadmapTitle" xml:space="preserve">
+        <value>Hackathon Journey</value>
+    </data>
+    <data name="roadmapLabel" xml:space="preserve">
+        <value>Starts</value>
+    </data>
+    <data name="roadmapLabel1" xml:space="preserve">
+        <value>Ends</value>
+    </data>
+    <data name="roadmapElement1" xml:space="preserve">
+        <value>Registration</value>
+    </data>
+    <data name="roadmapElement2" xml:space="preserve">
+        <value>Virtual Workshops</value>
+    </data>
+    <data name="roadmapElement3" xml:space="preserve">
+        <value>Qualifiers Announcement</value>
+    </data>
+    <data name="roadmapElement6" xml:space="preserve">
+        <value>Final Ceremony</value>
+    </data>
+    <data name="roadmapElement5" xml:space="preserve">
+        <value>Final Judging</value>
+    </data>
+    <data name="roadmapElement4" xml:space="preserve">
+        <value>Onboarding Session</value>
+    </data>
+    <data name="prizeTitle" xml:space="preserve">
+        <value>Total prize money is more than</value>
+    </data>
+    <data name="prizeSubTitle" xml:space="preserve">
+        <value>For winners and finalists, as well as post-hackathon training and development opportunities.</value>
+    </data>
+    <data name="prizeCurrency" xml:space="preserve">
+        <value>Saudi Riyals</value>
+    </data>
+    <data name="rights" xml:space="preserve">
+        <value>All rights reserved 2024, Royal Commission for Jubail and Yanbu.</value>
+    </data>
+</root>
