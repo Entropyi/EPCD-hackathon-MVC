@@ -105,7 +105,7 @@ a {
     font-family: "Font-Regular";
     font-style: normal;
     font-weight: 500;
-    src: url("/fonts/PingAR+LT-Regular.otf") format("opentype");
+    src: url("/fonts/PingAR_LT_Regular.otf") format("opentype");
 }
 
 @font-face {
@@ -119,5 +119,5 @@ a {
     font-family: "Font-Bold";
     font-style: normal;
     font-weight: 700;
-    src: url("/fonts/PingAR+LT-Bold.otf") format("opentype");
+    src: url("/fonts/PingAR_LT_Bold.otf") format("opentype");
 }
