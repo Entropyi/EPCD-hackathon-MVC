@@ -98,26 +98,26 @@ a {
   font-family: "Font-Light";
   font-style: normal;
   font-weight: 300;
-  src: url("PingAR_LT_Light.otf") format("opentype");
+  src: url("../public/fonts/PingAR_LT_Light.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Font-Regular";
   font-style: normal;
   font-weight: 500;
-  src: url("PingAR+LT-Regular.otf") format("opentype");
+  src: url("../public/fonts/PingAR+LT-Regular.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Font-Medium";
   font-style: normal;
   font-weight: 600;
-  src: url("PingAR_LT_Medium.otf") format("opentype");
+  src: url("../public/fonts/PingAR_LT_Medium.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Font-Bold";
   font-style: normal;
   font-weight: 700;
-  src: url("PingAR+LT-Bold.otf") format("opentype");
+  src: url("../public/fonts/PingAR+LT-Bold.otf") format("opentype");
 }

@@ -149,3 +149,4 @@ C:\Users\E N T R O P Y\RiderProjects\epcdhackthon\epcdhackthon\obj\Debug\net8.0\
 C:\Users\E N T R O P Y\RiderProjects\epcdhackthon\epcdhackthon\obj\Debug\net8.0\ref\epcdhackthon.dll
 C:\Users\E N T R O P Y\RiderProjects\epcdhackthon\epcdhackthon\obj\Debug\net8.0\epcdhackthon.Resources.Views.Form.Index.resources
 C:\Users\E N T R O P Y\RiderProjects\epcdhackthon\epcdhackthon\obj\Debug\net8.0\epcdhackthon.Resources.Views.Form.Index.en.resources
+C:\Users\E N T R O P Y\RiderProjects\epcdhackthon\epcdhackthon\obj\Debug\net8.0\epcdhackthon.sourcelink.json
