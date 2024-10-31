@@ -61,4 +61,11 @@
       </Compile>
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\public\fonts\PingAR+LT-Bold.otf" />
+      <_ContentIncludedByDefault Remove="wwwroot\public\fonts\PingAR+LT-Regular.otf" />
+      <_ContentIncludedByDefault Remove="wwwroot\public\fonts\PingAR_LT_Light.otf" />
+      <_ContentIncludedByDefault Remove="wwwroot\public\fonts\PingAR_LT_Medium.otf" />
+    </ItemGroup>
+
 </Project>
