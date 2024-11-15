@@ -1,5 +1,7 @@
 ﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using Microsoft.EntityFrameworkCore
 @inject IViewLocalizer Localizer
+@model RequestViewModel
 
 @{
     ViewData["Title"] = "Form";
@@ -47,7 +49,9 @@
 
 
 <div class="form-root-container">
-    <div class="form-container">
+    <form method="post" class="form-container">
+        <div asp-validation-summary="All"></div>
+
         <div class="form__super-title-container">
             <h1 class="form__super-title-text">@Localizer["formTitle"]</h1>
         </div>
@@ -59,16 +63,16 @@
             <div class="form__inputs-container">
                 <div class="form__input-container">
                     <label class="form__label-text">@Localizer["labelName1"]</label>
+                    <input class="form__input" type="text" name="" id="" asp-for="FullNameInArabic">
+                </div>
+
+                <div class="form__input-container">
+                    <label class="form__label-text">@Localizer["labelName2"]</label>
                     <input class="form__input" type="text" name="" id="">
                 </div>
 
                 <div class="form__input-container">
-                    <label class="form__label-text"  >@Localizer["labelName2"]</label>
-                    <input class="form__input" type="text" name="" id="">
-                </div>
-
-                <div class="form__input-container">
-                    <label class="form__label-text" >@Localizer["labelPhone"]</label>
+                    <label class="form__label-text">@Localizer["labelPhone"]</label>
                     <input class="form__input" type="text" name="" id="">
                 </div>
 
@@ -77,12 +81,12 @@
                     <input class="form__input" type="text" name="" id="">
                 </div>
                 <div class="form__input-container">
-                    <label class="form__label-text" >@Localizer["labelEmail"]</label>
-                    <input  class="form__input" type="text" name="" id="">
+                    <label class="form__label-text">@Localizer["labelEmail"]</label>
+                    <input class="form__input" type="text" name="" id="">
                 </div>
 
                 <div class="form__input-container">
-                    <label class="form__label-text" >@Localizer["labelNat"]</label>
+                    <label class="form__label-text">@Localizer["labelNat"]</label>
                     <input class="form__input" type="text" name="" id="">
                 </div>
 
@@ -100,21 +104,21 @@
             <div class="form__inputs-container">
                 <div class="form__input-container">
                     <label class="form__label-text">@Localizer["label1"]</label>
-                    <input class="form__input"  type="text" name="" id="">
+                    <input class="form__input" type="text" name="" id="">
                 </div>
 
                 <div class="form__input-container">
-                    <label class="form__label-text"  >@Localizer["label2"]</label>
-                    <input class="form__input"  type="text" name="" id="">
+                    <label class="form__label-text">@Localizer["label2"]</label>
+                    <input class="form__input" type="text" name="" id="">
                 </div>
 
                 <div class="form__input-container">
-                    <label class="form__label-text" >@Localizer["labelName3"]</label>
+                    <label class="form__label-text">@Localizer["labelName3"]</label>
                     <textarea class="form__input"></textarea>
                 </div>
 
                 <div class="form__input-container">
-                    <label class="form__label-text" >@Localizer["labelName4"]</label>
+                    <label class="form__label-text">@Localizer["labelName4"]</label>
                     <input class="form__input" type="text" name="" id="">
                 </div>
 
@@ -128,7 +132,7 @@
             <div class="form__terms-container">
                 <div class="form__containers-1-container">
                     <input type="checkbox">
-                    <h4 class="form__label-text" >@Localizer["conditions1"]</h4>
+                    <h4 class="form__label-text">@Localizer["conditions1"]</h4>
                 </div>
 
                 <div class="form__containers-1-container">
@@ -143,5 +147,5 @@
             <input class="form__submit" type="submit" name="" id="" value="@Localizer["submit"]">
         </div>
 
-    </div>
+    </form>
 </div>

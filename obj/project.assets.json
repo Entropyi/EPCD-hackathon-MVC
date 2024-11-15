@@ -2866,27 +2866,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\E N T R O P Y\\.nuget\\packages\\": {}
+    "C:\\Users\\je-ha\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\E N T R O P Y\\RiderProjects\\epcdhackthon\\epcdhackthon\\epcdhackthon.csproj",
+      "projectUniqueName": "C:\\Users\\je-ha\\EPCD-hackathon-MVC\\epcdhackthon.csproj",
       "projectName": "epcdhackthon",
-      "projectPath": "C:\\Users\\E N T R O P Y\\RiderProjects\\epcdhackthon\\epcdhackthon\\epcdhackthon.csproj",
-      "packagesPath": "C:\\Users\\E N T R O P Y\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\E N T R O P Y\\RiderProjects\\epcdhackthon\\epcdhackthon\\obj\\",
+      "projectPath": "C:\\Users\\je-ha\\EPCD-hackathon-MVC\\epcdhackthon.csproj",
+      "packagesPath": "C:\\Users\\je-ha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\je-ha\\EPCD-hackathon-MVC\\obj\\",
       "projectStyle": "PackageReference",
+      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
-        "C:\\Users\\E N T R O P Y\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\je-ha\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
