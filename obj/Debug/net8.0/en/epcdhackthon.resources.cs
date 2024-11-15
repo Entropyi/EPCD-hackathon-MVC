@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("epcdhackthon")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute(" ")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d00f6d49c88a0c1a79d26dad54feae7f34a0dde0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05ebc2eac3b7649145bc97eeba83816d300cbdfe")]
 [assembly: System.Reflection.AssemblyProductAttribute("epcdhackthon")]
 [assembly: System.Reflection.AssemblyTitleAttribute("epcdhackthon")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

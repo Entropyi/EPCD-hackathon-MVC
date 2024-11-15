@@ -10,6 +10,6 @@ public class ApplicationDbContext : IdentityDbContext
         : base(options)
     {
     }
-    public DbSet<RequestViewModel> Requests { get; set; }
+    public DbSet<Request> Requests { get; set; }
 
 }
