@@ -224,7 +224,7 @@ namespace epcdhackthon.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("epcdhackthon.Models.RequestViewModel", b =>
+            modelBuilder.Entity("epcdhackthon.Models.Request", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -235,8 +235,9 @@ namespace epcdhackthon.Migrations
                     b.Property<DateTime>("CreationDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("DateOfBirth")
-                        .HasColumnType("datetime2");
+                    b.Property<DateOnly?>("DateOfBirth")
+                        .IsRequired()
+                        .HasColumnType("date");
 
                     b.Property<string>("Email")
                         .IsRequired()

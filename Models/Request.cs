@@ -1,12 +1,14 @@
 ﻿using System.ComponentModel.DataAnnotations;
-
+    
 namespace epcdhackthon.Models;
 
 public class Request
 {
+ 
+    
     public int Id { get; set; }
     
-    [Required]
+    [Required(ErrorMessage = "it dosnt work")]
     public string FullNameInArabic { get; set; }
     
     [Required]
@@ -24,7 +26,7 @@ public class Request
     
     
     [Required]
-    public DateTime DateOfBirth { get; set; }
+    public DateOnly? DateOfBirth { get; set; }
    
     [Required]
     public string IdeaName { get; set; }

@@ -30,13 +30,13 @@
                 <button type="submit" class="header__lang-switch-container">
                     @if (Thread.CurrentThread.CurrentCulture.Name == "ar")
                     {
-                    <p class="lang-switch-text">EN</p>
+                        <p class="lang-switch-text">EN</p>
                     }
                     else
                     {
-                    <div class="lang-switch-text">
-                        ع
-                    </div>
+                        <div class="lang-switch-text">
+                            ع
+                        </div>
                     }
                     <div class="lang-switch-icon">
                         <img src="/public/lang.svg" alt="lang icon" width="18.3" height="18">
@@ -50,7 +50,7 @@
 
 <div class="form-root-container">
     <form method="post" asp-action="Index" class="form-container">
-        <div asp-validation-summary="All"></div>
+        <div asp-validation-summary="ModelOnly"></div>
 
         <div class="form__super-title-container">
             <h1 class="form__super-title-text">@Localizer["formTitle"]</h1>
@@ -63,31 +63,38 @@
             <div class="form__inputs-container">
                 <div class="form__input-container">
                     <label class="form__label-text">@Localizer["labelName1"]</label>
-                    <input class="form__input" type="text" name="" id="" asp-for="FullNameInArabic">
+                    <input asp-for="FullNameInArabic" class="form__input" type="text">
+                    <span asp-validation-for="FullNameInArabic" class="text-danger"></span>
                 </div>
 
                 <div class="form__input-container">
                     <label class="form__label-text">@Localizer["labelName2"]</label>
-                    <input class="form__input" type="text" name="" id="">
+                    <input asp-for="FullNameInEnglish" class="form__input">
+                    <span asp-validation-for="FullNameInEnglish" class="text-danger"></span>
                 </div>
+
 
                 <div class="form__input-container">
                     <label class="form__label-text">@Localizer["labelPhone"]</label>
-                    <input class="form__input" type="text" name="" id="">
+                    <input asp-for="PhoneNumber" class="form__input" type="text">
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
                 </div>
 
                 <div class="form__input-container">
                     <label class="form__label-text">@Localizer["labelDate1"]</label>
-                    <input class="form__input" type="text" name="" id="">
+                    <input asp-for="DateOfBirth" class="form__input" type="text">
+                    <span asp-validation-for="DateOfBirth" class="text-danger"></span>
                 </div>
                 <div class="form__input-container">
                     <label class="form__label-text">@Localizer["labelEmail"]</label>
-                    <input class="form__input" type="text" name="" id="">
+                    <input asp-for="Email" class="form__input" type="text">
+                    <span asp-validation-for="Email" class="text-danger"></span>
                 </div>
 
                 <div class="form__input-container">
                     <label class="form__label-text">@Localizer["labelNat"]</label>
-                    <input class="form__input" type="text" name="" id="">
+                    <input asp-for="Nationality" class="form__input" type="text">
+                    <span asp-validation-for="Nationality" class="text-danger"></span>
                 </div>
 
 
@@ -104,17 +111,20 @@
             <div class="form__inputs-container">
                 <div class="form__input-container">
                     <label class="form__label-text">@Localizer["label1"]</label>
-                    <input class="form__input" type="text" name="" id="">
+                    <input asp-for="IdeaName" class="form__input" type="text">
+                    <span asp-validation-for="IdeaName" class="text-danger"></span>
                 </div>
 
                 <div class="form__input-container">
                     <label class="form__label-text">@Localizer["label2"]</label>
-                    <input class="form__input" type="text" name="" id="">
+                    <input asp-for="TeamName" class="form__input" type="text">
+                    <span asp-validation-for="TeamName" class="text-danger"></span>
                 </div>
 
                 <div class="form__input-container">
                     <label class="form__label-text">@Localizer["labelName3"]</label>
-                    <textarea class="form__input"></textarea>
+                    <textarea asp-for="IdeaDescription" class="form__input" ></textarea>
+                    <span asp-validation-for="IdeaDescription" class="text-danger"></span>
                 </div>
 
                 <div class="form__input-container">
