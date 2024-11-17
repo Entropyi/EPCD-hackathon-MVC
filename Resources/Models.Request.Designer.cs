@@ -60,11 +60,11 @@ namespace epcdhackthon.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to اهلا.
+        ///   Looks up a localized string similar to هذا الحقل مطلوب.
         /// </summary>
-        internal static string test {
+        internal static string Required {
             get {
-                return ResourceManager.GetString("test", resourceCulture);
+                return ResourceManager.GetString("Required", resourceCulture);
             }
         }
     }

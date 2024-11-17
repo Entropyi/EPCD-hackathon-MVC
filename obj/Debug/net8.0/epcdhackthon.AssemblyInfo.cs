@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("epcdhackthon")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72b853372147a87c801774bfe9487fd90940a6e2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c911913126ce315ed22fb5877fd59ae2ddc4776")]
 [assembly: System.Reflection.AssemblyProductAttribute("epcdhackthon")]
 [assembly: System.Reflection.AssemblyTitleAttribute("epcdhackthon")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
