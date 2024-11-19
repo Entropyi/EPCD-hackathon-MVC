@@ -21,4 +21,34 @@
     <data name="Required" xml:space="preserve">
         <value>هذا الحقل مطلوب</value>
     </data>
+    <data name="InvalidEmail" xml:space="preserve">
+        <value>الايميل غير صحيح</value>
+    </data>
+    <data name="InvalidPhoneNumber" xml:space="preserve">
+        <value>رقم الجوال غير صحيح</value>
+    </data>
+    <data name="InvalidPhoneNumberLengthMax" xml:space="preserve">
+        <value>يجب ان يكون رقم الجوال 10 ارقام</value>
+    </data>
+    <data name="InvalidTeamName" xml:space="preserve">
+        <value>اسم الفريق اقل من 5 حروف</value>
+    </data>
+    <data name="InvalidPhoneNumberLengthMin" xml:space="preserve">
+        <value>اسم الفريق اكثر من 25 حرف</value>
+    </data>
+    <data name="InvalidIdeaNameLengthMin" xml:space="preserve">
+        <value>اسم الفكرة اقل من 5 حروف</value>
+    </data>
+    <data name="InvalidIdeaDescriptionLenghtMin" xml:space="preserve">
+        <value>وصف الفكرة اقل من 5 حروف</value>
+    </data>
+    <data name="InvalidIdeaNameLengthMax" xml:space="preserve">
+        <value>اسم الفكرة اكثر من 15 حرف</value>
+    </data>
+    <data name="InvalidNameLengthMin" xml:space="preserve">
+        <value>الإسم اقل من 10 حروف</value>
+    </data>
+    <data name="InvalidNameLengthMax" xml:space="preserve">
+        <value>الإسم اكثر من 29 حرف</value>
+    </data>
 </root>

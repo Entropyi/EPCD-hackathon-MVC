@@ -60,6 +60,96 @@ namespace epcdhackthon.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The email address is invalid.
+        /// </summary>
+        internal static string InvalidEmail {
+            get {
+                return ResourceManager.GetString("InvalidEmail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The idea description length is less than 5 characters.
+        /// </summary>
+        internal static string InvalidIdeaDescriptionLenghtMin {
+            get {
+                return ResourceManager.GetString("InvalidIdeaDescriptionLenghtMin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The idea name length is more than 15 characters.
+        /// </summary>
+        internal static string InvalidIdeaNameLengthMax {
+            get {
+                return ResourceManager.GetString("InvalidIdeaNameLengthMax", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The idea name length is less than 5 characters.
+        /// </summary>
+        internal static string InvalidIdeaNameLengthMin {
+            get {
+                return ResourceManager.GetString("InvalidIdeaNameLengthMin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The name length is more than 29 characters.
+        /// </summary>
+        internal static string InvalidNameLengthMax {
+            get {
+                return ResourceManager.GetString("InvalidNameLengthMax", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The name length is less than 10 characters.
+        /// </summary>
+        internal static string InvalidNameLengthMin {
+            get {
+                return ResourceManager.GetString("InvalidNameLengthMin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The phone number is invalid.
+        /// </summary>
+        internal static string InvalidPhoneNumber {
+            get {
+                return ResourceManager.GetString("InvalidPhoneNumber", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The phone number must be 10 numbers.
+        /// </summary>
+        internal static string InvalidPhoneNumberLengthMax {
+            get {
+                return ResourceManager.GetString("InvalidPhoneNumberLengthMax", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The team name length is more than 25 characters.
+        /// </summary>
+        internal static string InvalidPhoneNumberLengthMin {
+            get {
+                return ResourceManager.GetString("InvalidPhoneNumberLengthMin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The team name length is less than 5 characters.
+        /// </summary>
+        internal static string InvalidTeamName {
+            get {
+                return ResourceManager.GetString("InvalidTeamName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to This field is required.
         /// </summary>
         internal static string Required {

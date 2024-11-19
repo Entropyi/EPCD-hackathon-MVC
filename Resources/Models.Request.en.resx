@@ -21,4 +21,34 @@
     <data name="Required" xml:space="preserve">
         <value>This field is required</value>
     </data>
+    <data name="InvalidEmail" xml:space="preserve">
+        <value>The email address is invalid</value>
+    </data>
+    <data name="InvalidPhoneNumber" xml:space="preserve">
+        <value>The phone number is invalid</value>
+    </data>
+    <data name="InvalidPhoneNumberLengthMax" xml:space="preserve">
+        <value>The phone number must be 10 numbers</value>
+    </data>
+    <data name="InvalidTeamName" xml:space="preserve">
+        <value>The team name length is less than 5 characters</value>
+    </data>
+    <data name="InvalidPhoneNumberLengthMin" xml:space="preserve">
+        <value>The team name length is more than 25 characters</value>
+    </data>
+    <data name="InvalidIdeaNameLengthMin" xml:space="preserve">
+        <value>The idea name length is less than 5 characters</value>
+    </data>
+    <data name="InvalidIdeaDescriptionLenghtMin" xml:space="preserve">
+        <value>The idea description length is less than 5 characters</value>
+    </data>
+    <data name="InvalidIdeaNameLengthMax" xml:space="preserve">
+        <value>The idea name length is more than 15 characters</value>
+    </data>
+    <data name="InvalidNameLengthMin" xml:space="preserve">
+        <value>The name length is less than 10 characters</value>
+    </data>
+    <data name="InvalidNameLengthMax" xml:space="preserve">
+        <value>The name length is more than 29 characters</value>
+    </data>
 </root>

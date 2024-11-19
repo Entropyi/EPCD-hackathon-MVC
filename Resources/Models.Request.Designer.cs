@@ -60,6 +60,96 @@ namespace epcdhackthon.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to الايميل غير صحيح.
+        /// </summary>
+        internal static string InvalidEmail {
+            get {
+                return ResourceManager.GetString("InvalidEmail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to وصف الفكرة اقل من 5 حروف.
+        /// </summary>
+        internal static string InvalidIdeaDescriptionLenghtMin {
+            get {
+                return ResourceManager.GetString("InvalidIdeaDescriptionLenghtMin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to اسم الفكرة اكثر من 15 حرف.
+        /// </summary>
+        internal static string InvalidIdeaNameLengthMax {
+            get {
+                return ResourceManager.GetString("InvalidIdeaNameLengthMax", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to اسم الفكرة اقل من 5 حروف.
+        /// </summary>
+        internal static string InvalidIdeaNameLengthMin {
+            get {
+                return ResourceManager.GetString("InvalidIdeaNameLengthMin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to الإسم اكثر من 29 حرف.
+        /// </summary>
+        internal static string InvalidNameLengthMax {
+            get {
+                return ResourceManager.GetString("InvalidNameLengthMax", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to الإسم اقل من 10 حروف.
+        /// </summary>
+        internal static string InvalidNameLengthMin {
+            get {
+                return ResourceManager.GetString("InvalidNameLengthMin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to رقم الجوال غير صحيح.
+        /// </summary>
+        internal static string InvalidPhoneNumber {
+            get {
+                return ResourceManager.GetString("InvalidPhoneNumber", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to يجب ان يكون رقم الجوال 10 ارقام.
+        /// </summary>
+        internal static string InvalidPhoneNumberLengthMax {
+            get {
+                return ResourceManager.GetString("InvalidPhoneNumberLengthMax", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to اسم الفريق اكثر من 25 حرف.
+        /// </summary>
+        internal static string InvalidPhoneNumberLengthMin {
+            get {
+                return ResourceManager.GetString("InvalidPhoneNumberLengthMin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to اسم الفريق اقل من 5 حروف.
+        /// </summary>
+        internal static string InvalidTeamName {
+            get {
+                return ResourceManager.GetString("InvalidTeamName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to هذا الحقل مطلوب.
         /// </summary>
         internal static string Required {
